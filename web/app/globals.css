@@ -1,0 +1,213 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+@import "../components/grid/schedule-grid.css";
+@import "../components/dial/tradeoff-dial.css";
+@import "../components/hours/hour-bars.css";
+@import "../components/gutter/shadow-gutter.css";
+@import "../components/inspector/solve-inspector.css";
+@import "../components/manager/manager.css";
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-paper: var(--paper);
+  --color-paper-sunk: var(--paper-sunk);
+  --color-rule: var(--rule);
+  --color-dawn: var(--dawn);
+  --color-day: var(--day);
+  --color-dusk: var(--dusk);
+  --color-alarm: var(--alarm);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-data: var(--font-data);
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+}
+
+:is(button, input, select, [role="slider"]):focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.mital-shell {
+  min-height: 100vh;
+  min-width: 0;
+  padding: var(--s-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-5);
+}
+
+.mital-app { display: grid; grid-template-columns: 208px minmax(0, 1fr); min-height: 100vh; }
+.mital-app[data-setup] { grid-template-columns: 1fr; align-content: start; }
+.mital-app[data-setup] .mital-rail { height: auto; position: static; border: 0; background: transparent; padding: var(--s-5) var(--s-5) 0; }
+.mital-app[data-setup] .mital-wordmark { padding: 0; }
+.mital-app[data-setup] .mital-shell { min-height: 0; }
+.mital-rail { position: sticky; top: 0; height: 100vh; padding: var(--s-5) var(--s-3); border-right: var(--hairline); background: var(--paper-sunk); display: flex; flex-direction: column; gap: var(--s-3); }
+.mital-wordmark { display: flex; align-items: center; gap: var(--s-2); font: 700 2rem/1 Urbanist, var(--font-display); letter-spacing: -0.045em; padding: 0 var(--s-2) var(--s-4); }
+.mital-wordmark img { width: 42px; height: 42px; object-fit: contain; }
+.mital-wordmark span { color: var(--ink); }
+.mital-switcher { padding: 0 var(--s-2); }
+.mital-switcher select { width: 100%; }
+.mital-nav { display: grid; gap: var(--s-1); margin-top: var(--s-5); }
+.mital-nav button, .mital-rail__settings, .mital-rail__quiet { width: 100%; border: 0; border-radius: var(--radius); padding: var(--s-3); color: var(--ink-soft); background: transparent; font: 600 var(--step-0) var(--font-body); text-align: left; cursor: pointer; transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease); }
+.mital-nav button:hover, .mital-rail__settings:hover, .mital-rail__quiet:hover { color: var(--ink); background: var(--paper); }
+.mital-nav button[data-active], .mital-rail__settings[data-active] { color: var(--ink); background: var(--day-fill); }
+.mital-rail__settings { margin-top: auto; }
+.mital-rail__quiet { font-size: var(--step--1); }
+.mital-topbar { display: grid; grid-template-columns: minmax(150px, 1fr) auto minmax(130px, 1fr); gap: var(--s-4); align-items: center; padding-bottom: var(--s-4); border-bottom: var(--hairline); }
+.mital-topbar__title h1 { font: 600 1.85rem/1.1 var(--font-display); margin: var(--s-1) 0 0; }
+.mital-topbar__title p { margin: 0; }
+.mital-topbar__week, .mital-topbar__actions { display: flex; align-items: end; gap: var(--s-2); }
+.week-picker { position: relative; }
+.week-picker__trigger { min-width: 180px; min-height: 44px; display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); border: var(--hairline); border-radius: var(--radius); background: var(--paper-sunk); color: var(--ink); font: inherit; padding: var(--s-2) var(--s-3); cursor: pointer; }
+.week-picker__trigger:hover, .week-picker__month button:hover { border-color: var(--day); }
+.week-picker__popover { position: absolute; z-index: 20; top: calc(100% + var(--s-2)); left: 0; width: 316px; border: var(--hairline); border-radius: var(--radius-lg); background: var(--paper-sunk); padding: var(--s-4); box-shadow: var(--shadow-lift); }
+.week-picker__month { display: flex; justify-content: space-between; align-items: center; gap: var(--s-3); margin-bottom: var(--s-3); text-transform: capitalize; }
+.week-picker__month > div { display: flex; gap: var(--s-1); }
+.week-picker__month button { width: 32px; height: 32px; border: var(--hairline); border-radius: var(--radius); background: var(--paper-sunk); color: var(--ink); cursor: pointer; }
+.week-picker__calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; text-align: center; }
+.week-picker__calendar span { padding: var(--s-2) 0; color: var(--ink-soft); font-size: var(--step--1); }
+.week-picker__calendar button { height: 34px; border: 0; border-radius: var(--radius); background: transparent; color: var(--ink); cursor: pointer; font: 500 var(--step--1) var(--font-body); }
+.week-picker__calendar button:hover, .week-picker__calendar button[data-week] { background: var(--day-fill); }
+.week-picker__calendar button[data-selected] { background: var(--day); color: var(--paper-sunk); font-weight: 700; }
+.week-picker__calendar button[data-outside] { color: var(--ink-soft); opacity: .55; }
+.mital-topbar__actions { justify-content: flex-end; flex-wrap: wrap; }
+.mital-text-action { border: 0; border-radius: var(--radius); background: transparent; color: var(--day); padding: var(--s-2); font: 600 var(--step--1) var(--font-body); cursor: pointer; }
+.mital-text-action:hover { background: var(--day-fill); }
+.mital-resume { border: var(--hairline); border-radius: var(--radius); background: var(--day-fill); padding: var(--s-2) var(--s-3); font-size: var(--step--1); }
+.mital-sections { display: grid; gap: var(--s-4); }
+.mital-fairness { border: var(--hairline); border-radius: var(--radius-lg); background: var(--paper-sunk); box-shadow: var(--shadow-lift); padding: var(--s-5); display: grid; gap: var(--s-3); }
+.mital-fairness__intro { display: flex; justify-content: space-between; align-items: center; gap: var(--s-4); }
+.mital-fairness__intro h2 { font: 650 var(--step-2)/1.15 var(--font-display); letter-spacing: var(--tracking-display); margin: var(--s-1) 0 var(--s-2); }
+.mital-fairness__intro p { margin: 0; }
+.mital-exceptions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-2); }
+.mital-exceptions button:not(.mital-text-action) { border: var(--hairline); border-radius: var(--radius-pill); color: var(--ink); background: var(--paper-sunk); padding: var(--s-2) var(--s-3); font: 600 var(--step--1) var(--font-body); cursor: pointer; }
+.mital-exceptions button[data-alert] { border-color: var(--alarm); }
+.mital-inspect-select { margin-left: auto; min-width: 180px; }
+.mital-schedule-grid { min-width: 0; border-radius: var(--radius-lg); background: var(--paper-sunk); padding: var(--s-3); }
+.mital-schedule-layout { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--s-3); }
+.mital-employee-inspector { width: 240px; border: var(--hairline); border-radius: var(--radius-lg); background: var(--paper-sunk); padding: var(--s-4); }
+.mital-employee-inspector h2 { font: 600 var(--step-1) var(--font-display); margin: var(--s-2) 0; }
+.mital-employee-inspector ul { padding-left: var(--s-4); font-size: var(--step--1); }
+.mital-employee-inspector .mital-text-action { float: right; }
+.mital-absence { display: grid; gap: var(--s-2); border-top: var(--hairline); margin: var(--s-3) 0; padding-top: var(--s-3); }
+.mital-absence .mital-text-action { float: none; }
+.mital-absence .mgr-btn[data-active] { border-color: var(--day); background: var(--day-fill); }
+.mital-insights { border: var(--hairline); border-radius: var(--radius-lg); background: var(--paper-sunk); overflow: hidden; }
+.mital-insights > summary { cursor: pointer; padding: var(--s-4); font-weight: 600; }
+.mital-insights > summary .mgr-hint { margin-left: var(--s-3); font-weight: 400; }
+.mital-insights .mital-shell__body { grid-template-columns: minmax(260px, 1fr) minmax(220px, .7fr); gap: var(--s-5); border-top: var(--hairline); padding: var(--s-5); }
+.mital-insights .hour-bars { max-width: none; max-height: none; }
+.mital-insights .gutter { grid-column: 1 / -1; width: auto; min-width: 0; max-height: none; padding: var(--s-4) 0 0; border: 0; border-top: var(--hairline); background: transparent; }
+.mital-insights .gutter__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--s-2); }
+@media (max-width: 760px) { .mital-insights .mital-shell__body { grid-template-columns: 1fr; } .mital-insights .hour-bars { border-left: 0; border-top: var(--hairline); padding: var(--s-4) 0 0; } }
+.mital-settings { width: min(100%, 760px); }
+.mital-settings__heading { border-top: var(--hairline); padding-top: var(--s-4); margin: var(--s-2) 0 0; font: 600 var(--step-1) var(--font-display); }
+.mital-settings__walkthrough { align-self: flex-start; }
+.mital-review-group { border-top: var(--hairline); padding-top: var(--s-3); }
+.mital-review-group h3 { font: 600 var(--step-1) var(--font-display); margin: 0 0 var(--s-3); }
+.mital-advisor { border-color: var(--day); }
+.mital-advisor__list { display: grid; gap: var(--s-2); }
+.mital-advisor__item { display: flex; justify-content: space-between; align-items: center; gap: var(--s-4); border: var(--hairline); border-radius: var(--radius); background: var(--paper-sunk); padding: var(--s-3) var(--s-4); }
+.mital-advisor__item p { margin: var(--s-1) 0 0; }
+.mital-advisor__item .mgr-panel__actions { flex-shrink: 0; }
+.mital-hire-note { display: flex; justify-content: space-between; gap: var(--s-3); border: var(--hairline); border-radius: var(--radius); padding: var(--s-3); background: var(--day-fill); }
+.mital-hire-note p { margin: var(--s-1) 0 0; }
+@media (max-width: 760px) { .mital-advisor__item { align-items: flex-start; flex-direction: column; } }
+.setup-flow { width: min(100%, 980px); margin: 0 auto; display: grid; gap: var(--s-4); }
+.setup-flow__head { display: flex; justify-content: space-between; align-items: center; gap: var(--s-3); }
+.setup-flow__actions { display: flex; align-items: center; gap: var(--s-2); }
+.setup-flow__head h1 { font: 600 2rem/1.1 var(--font-display); margin: var(--s-1) 0 0; }
+.setup-flow__head h1:focus { outline: none; }
+.setup-flow__head p { margin: 0; }
+.setup-flow__track { height: 5px; background: var(--rule); overflow: hidden; }
+.setup-flow__track span { display: block; height: 100%; background: var(--day); transition: width 200ms var(--ease); }
+.setup-flow__stage { animation: mital-step 200ms var(--ease) both; }
+.setup-flow__foot { display: flex; justify-content: space-between; border-top: var(--hairline); padding-top: var(--s-4); }
+.mital-welcome { max-width: 660px; margin: auto; }
+.mital-welcome h1 { font: 650 var(--step-3)/1.1 var(--font-display); margin: 0; }
+@keyframes mital-step { from { opacity: 0; transform: translateX(8px); } to { opacity: 1; transform: translateX(0); } }
+@media (prefers-reduced-motion: reduce) { .setup-flow__stage { animation: none; } .setup-flow__track span { transition: none; } }
+@media (max-width: 1180px) { .mital-app { grid-template-columns: 176px minmax(0, 1fr); } .mital-topbar { grid-template-columns: 1fr auto; } .mital-topbar__week { grid-column: 1 / -1; grid-row: 2; } }
+@media (max-width: 1180px) { .mital-schedule-layout { grid-template-columns: 1fr; } .mital-employee-inspector { width: auto; } }
+@media (max-width: 760px) { .mital-app { grid-template-columns: 1fr; } .mital-rail { position: static; height: auto; } .mital-nav { display: flex; overflow: auto; margin-top: 0; } .mital-nav button { white-space: nowrap; width: auto; } .mital-rail__settings { margin-top: 0; } .mital-topbar { grid-template-columns: 1fr; } .mital-topbar__week { grid-row: auto; flex-wrap: wrap; } }
+
+.mital-shell__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-3);
+  border-bottom: var(--hairline);
+  padding-bottom: var(--s-3);
+}
+
+.mital-shell__brand {
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  letter-spacing: var(--tracking-display);
+  line-height: 1;
+  margin: 0;
+}
+
+.mital-shell__meta {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+
+.mital-shell__status {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums;
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+
+.mital-shell__status[data-tone="alarm"] {
+  color: var(--alarm);
+}
+
+.mital-shell__body {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
+  gap: 0;
+  align-items: stretch;
+  min-height: 0;
+}
+
+@media (max-width: 1100px) {
+  .mital-shell__body {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .hour-bars,
+  .inspector {
+    grid-column: 1 / -1;
+    max-width: none;
+    border-left: none;
+    border-top: var(--hairline);
+    padding-left: 0;
+    padding-top: var(--s-3);
+  }
+}
+
+@media (max-width: 720px) {
+  .mital-shell__body {
+    grid-template-columns: 1fr;
+  }
+
+  .gutter {
+    width: auto;
+    max-height: 220px;
+    border-right: none;
+    border-bottom: var(--hairline);
+    padding-right: 0;
+    padding-bottom: var(--s-3);
+  }
+}

@@ -1,0 +1,9913 @@
+{
+  "id": "clinic_25",
+  "horizon_days": 7,
+  "start_date": "2026-08-03",
+  "currency": "EUR",
+  "skills": [
+    "nurse",
+    "receptionist",
+    "supervisor"
+  ],
+  "supervisor_skill": "supervisor",
+  "shifts": [
+    {
+      "id": "early",
+      "label": "Early",
+      "start_period": 28,
+      "end_period": 60,
+      "paid_hours": 7.5,
+      "undesirable": false,
+      "closing": false
+    },
+    {
+      "id": "day",
+      "label": "Day",
+      "start_period": 36,
+      "end_period": 68,
+      "paid_hours": 7.5,
+      "undesirable": false,
+      "closing": false
+    },
+    {
+      "id": "late",
+      "label": "Late",
+      "start_period": 52,
+      "end_period": 84,
+      "paid_hours": 7.5,
+      "undesirable": true,
+      "closing": true
+    }
+  ],
+  "employees": [
+    {
+      "id": "e_000",
+      "name": "Ana",
+      "wage": 21.31,
+      "ot_wage": 31.96,
+      "skills": [
+        "nurse",
+        "supervisor"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 20.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        }
+      ],
+      "preferences": []
+    },
+    {
+      "id": "e_001",
+      "name": "Ben",
+      "wage": 23.76,
+      "ot_wage": 35.64,
+      "skills": [
+        "nurse",
+        "supervisor"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 28.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "day"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 0,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 1,
+          "shift": "late",
+          "penalty": 5.0
+        }
+      ]
+    },
+    {
+      "id": "e_002",
+      "name": "Cara",
+      "wage": 24.58,
+      "ot_wage": 36.87,
+      "skills": [
+        "nurse",
+        "receptionist",
+        "supervisor"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 0,
+          "shift": "late",
+          "penalty": 2.0
+        },
+        {
+          "day": 1,
+          "shift": "late",
+          "penalty": 4.0
+        },
+        {
+          "day": 2,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 3,
+          "shift": "late",
+          "penalty": 4.0
+        }
+      ]
+    },
+    {
+      "id": "e_003",
+      "name": "Diego",
+      "wage": 21.65,
+      "ot_wage": 32.47,
+      "skills": [
+        "nurse",
+        "receptionist",
+        "supervisor"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        }
+      ],
+      "preferences": []
+    },
+    {
+      "id": "e_004",
+      "name": "Elena",
+      "wage": 23.74,
+      "ot_wage": 35.61,
+      "skills": [
+        "nurse",
+        "receptionist"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 2,
+          "shift": "late",
+          "penalty": 3.0
+        },
+        {
+          "day": 3,
+          "shift": "late",
+          "penalty": 2.0
+        },
+        {
+          "day": 6,
+          "shift": "late",
+          "penalty": 2.0
+        }
+      ]
+    },
+    {
+      "id": "e_005",
+      "name": "Finn",
+      "wage": 24.81,
+      "ot_wage": 37.21,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 0,
+          "shift": "late",
+          "penalty": 3.0
+        },
+        {
+          "day": 1,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 4,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 6,
+          "shift": "late",
+          "penalty": 5.0
+        }
+      ]
+    },
+    {
+      "id": "e_006",
+      "name": "Grace",
+      "wage": 23.52,
+      "ot_wage": 35.28,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 28.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 3,
+          "shift": "late",
+          "penalty": 3.0
+        },
+        {
+          "day": 6,
+          "shift": "late",
+          "penalty": 4.0
+        }
+      ]
+    },
+    {
+      "id": "e_007",
+      "name": "Hugo",
+      "wage": 24.76,
+      "ot_wage": 37.14,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 20.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 2,
+          "shift": "late",
+          "penalty": 4.0
+        },
+        {
+          "day": 3,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 6,
+          "shift": "late",
+          "penalty": 3.0
+        }
+      ]
+    },
+    {
+      "id": "e_008",
+      "name": "Iris",
+      "wage": 23.24,
+      "ot_wage": 34.86,
+      "skills": [
+        "nurse",
+        "receptionist"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "day"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 5,
+          "shift": "late",
+          "penalty": 4.0
+        }
+      ]
+    },
+    {
+      "id": "e_009",
+      "name": "Jules",
+      "wage": 21.53,
+      "ot_wage": 32.3,
+      "skills": [
+        "nurse",
+        "supervisor"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 20.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 3,
+          "shift": "late",
+          "penalty": 2.0
+        }
+      ]
+    },
+    {
+      "id": "e_010",
+      "name": "Kai",
+      "wage": 23.67,
+      "ot_wage": 35.51,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 1,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 5,
+          "shift": "late",
+          "penalty": 2.0
+        }
+      ]
+    },
+    {
+      "id": "e_011",
+      "name": "Lena",
+      "wage": 21.36,
+      "ot_wage": 32.04,
+      "skills": [
+        "nurse",
+        "receptionist",
+        "supervisor"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 28.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "day"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 1,
+          "shift": "late",
+          "penalty": 3.0
+        }
+      ]
+    },
+    {
+      "id": "e_012",
+      "name": "Maya",
+      "wage": 23.2,
+      "ot_wage": 34.8,
+      "skills": [
+        "receptionist",
+        "supervisor"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 4,
+          "shift": "late",
+          "penalty": 2.0
+        },
+        {
+          "day": 5,
+          "shift": "late",
+          "penalty": 5.0
+        }
+      ]
+    },
+    {
+      "id": "e_013",
+      "name": "Noah",
+      "wage": 21.15,
+      "ot_wage": 31.72,
+      "skills": [
+        "supervisor"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 2,
+          "shift": "late",
+          "penalty": 3.0
+        },
+        {
+          "day": 3,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 4,
+          "shift": "late",
+          "penalty": 3.0
+        },
+        {
+          "day": 6,
+          "shift": "late",
+          "penalty": 4.0
+        }
+      ]
+    },
+    {
+      "id": "e_014",
+      "name": "Omar",
+      "wage": 24.02,
+      "ot_wage": 36.03,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 0,
+          "shift": "late",
+          "penalty": 4.0
+        },
+        {
+          "day": 3,
+          "shift": "late",
+          "penalty": 2.0
+        },
+        {
+          "day": 5,
+          "shift": "late",
+          "penalty": 5.0
+        }
+      ]
+    },
+    {
+      "id": "e_015",
+      "name": "Priya",
+      "wage": 21.16,
+      "ot_wage": 31.74,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        }
+      ],
+      "preferences": []
+    },
+    {
+      "id": "e_016",
+      "name": "Quinn",
+      "wage": 22.76,
+      "ot_wage": 34.14,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 4,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 5,
+          "shift": "late",
+          "penalty": 3.0
+        }
+      ]
+    },
+    {
+      "id": "e_017",
+      "name": "Rosa",
+      "wage": 22.02,
+      "ot_wage": 33.03,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 6,
+          "shift": "late",
+          "penalty": 3.0
+        }
+      ]
+    },
+    {
+      "id": "e_018",
+      "name": "Sam",
+      "wage": 23.54,
+      "ot_wage": 35.31,
+      "skills": [
+        "nurse",
+        "receptionist"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 28.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "day"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "day"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 4,
+          "shift": "late",
+          "penalty": 5.0
+        }
+      ]
+    },
+    {
+      "id": "e_019",
+      "name": "Tara",
+      "wage": 22.54,
+      "ot_wage": 33.81,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        }
+      ],
+      "preferences": []
+    },
+    {
+      "id": "e_020",
+      "name": "Uma",
+      "wage": 24.45,
+      "ot_wage": 36.67,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 20.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "day"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        }
+      ],
+      "preferences": []
+    },
+    {
+      "id": "e_021",
+      "name": "Vera",
+      "wage": 22.07,
+      "ot_wage": 33.11,
+      "skills": [
+        "nurse",
+        "supervisor"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 6,
+          "shift": "late",
+          "penalty": 5.0
+        }
+      ]
+    },
+    {
+      "id": "e_022",
+      "name": "Will",
+      "wage": 24.75,
+      "ot_wage": 37.12,
+      "skills": [
+        "nurse"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 28.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "day"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 5,
+          "shift": "late",
+          "penalty": 5.0
+        }
+      ]
+    },
+    {
+      "id": "e_023",
+      "name": "Xena",
+      "wage": 21.92,
+      "ot_wage": 32.88,
+      "skills": [
+        "nurse",
+        "receptionist"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 24.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "late"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 0,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 2,
+          "shift": "late",
+          "penalty": 4.0
+        }
+      ]
+    },
+    {
+      "id": "e_024",
+      "name": "Yuri",
+      "wage": 22.33,
+      "ot_wage": 33.49,
+      "skills": [
+        "nurse",
+        "receptionist",
+        "supervisor"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "early",
+            "day",
+            "late"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "early",
+            "day"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 1,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 3,
+          "shift": "late",
+          "penalty": 5.0
+        },
+        {
+          "day": 4,
+          "shift": "late",
+          "penalty": 2.0
+        }
+      ]
+    }
+  ],
+  "demand": [
+    {
+      "day": 0,
+      "period": 28,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 28,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 28,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 29,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 29,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 29,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 30,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 30,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 30,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 31,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 31,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 31,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 32,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 32,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 32,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 33,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 33,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 33,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 34,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 34,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 34,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 35,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 35,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 35,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 36,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 36,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 36,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 37,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 37,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 37,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 38,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 38,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 38,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 39,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 39,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 39,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 40,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 40,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 40,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 41,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 41,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 41,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 42,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 42,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 42,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 43,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 43,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 43,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 44,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 44,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 44,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 45,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 45,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 45,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 46,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 46,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 46,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 47,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 47,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 47,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 48,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 48,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 48,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 49,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 49,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 49,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 50,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 50,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 50,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 51,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 51,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 51,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 52,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 52,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 52,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 53,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 53,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 53,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 54,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 54,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 54,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 55,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 55,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 55,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 56,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 56,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 56,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 57,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 57,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 57,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 58,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 58,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 58,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 59,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 59,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 59,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 60,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 60,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 60,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 61,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 61,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 61,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 62,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 62,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 62,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 63,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 63,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 63,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 64,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 64,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 64,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 65,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 65,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 65,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 66,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 66,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 66,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 67,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 67,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 67,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 68,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 68,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 68,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 69,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 69,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 69,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 70,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 70,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 70,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 71,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 71,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 71,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 72,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 72,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 72,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 73,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 73,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 73,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 74,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 74,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 74,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 75,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 75,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 75,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 76,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 76,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 76,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 77,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 77,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 77,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 78,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 78,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 78,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 79,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 79,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 79,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 80,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 80,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 80,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 81,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 81,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 81,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 82,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 82,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 82,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 83,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 83,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 83,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 28,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 28,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 28,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 29,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 29,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 29,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 30,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 30,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 30,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 31,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 31,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 31,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 32,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 32,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 32,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 33,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 33,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 33,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 34,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 34,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 34,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 35,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 35,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 35,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 36,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 36,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 36,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 37,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 37,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 37,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 38,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 38,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 38,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 39,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 39,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 39,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 40,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 40,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 40,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 41,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 41,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 41,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 42,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 42,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 42,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 43,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 43,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 43,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 44,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 44,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 44,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 45,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 45,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 45,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 46,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 46,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 46,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 47,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 47,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 47,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 48,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 48,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 48,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 49,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 49,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 49,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 50,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 50,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 50,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 51,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 51,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 51,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 52,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 52,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 52,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 53,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 53,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 53,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 54,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 54,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 54,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 55,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 55,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 55,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 56,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 56,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 56,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 57,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 57,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 57,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 58,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 58,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 58,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 59,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 59,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 59,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 60,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 60,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 60,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 61,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 61,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 61,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 62,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 62,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 62,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 63,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 63,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 63,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 64,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 64,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 64,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 65,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 65,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 65,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 66,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 66,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 66,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 67,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 67,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 67,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 68,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 68,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 68,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 69,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 69,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 69,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 70,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 70,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 70,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 71,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 71,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 71,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 72,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 72,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 72,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 73,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 73,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 73,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 74,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 74,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 74,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 75,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 75,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 75,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 76,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 76,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 76,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 77,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 77,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 77,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 78,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 78,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 78,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 79,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 79,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 79,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 80,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 80,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 80,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 81,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 81,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 81,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 82,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 82,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 82,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 83,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 83,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 83,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 28,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 28,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 28,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 29,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 29,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 29,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 30,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 30,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 30,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 31,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 31,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 31,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 32,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 32,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 32,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 33,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 33,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 33,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 34,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 34,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 34,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 35,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 35,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 35,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 36,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 36,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 36,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 37,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 37,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 37,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 38,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 38,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 38,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 39,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 39,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 39,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 40,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 40,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 40,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 41,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 41,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 41,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 42,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 42,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 42,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 43,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 43,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 43,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 44,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 44,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 44,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 45,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 45,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 45,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 46,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 46,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 46,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 47,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 47,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 47,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 48,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 48,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 48,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 49,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 49,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 49,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 50,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 50,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 50,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 51,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 51,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 51,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 52,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 52,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 52,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 53,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 53,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 53,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 54,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 54,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 54,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 55,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 55,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 55,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 56,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 56,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 56,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 57,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 57,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 57,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 58,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 58,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 58,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 59,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 59,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 59,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 60,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 60,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 60,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 61,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 61,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 61,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 62,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 62,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 62,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 63,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 63,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 63,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 64,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 64,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 64,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 65,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 65,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 65,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 66,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 66,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 66,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 67,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 67,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 67,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 68,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 68,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 68,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 69,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 69,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 69,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 70,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 70,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 70,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 71,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 71,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 71,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 72,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 72,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 72,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 73,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 73,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 73,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 74,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 74,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 74,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 75,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 75,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 75,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 76,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 76,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 76,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 77,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 77,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 77,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 78,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 78,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 78,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 79,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 79,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 79,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 80,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 80,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 80,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 81,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 81,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 81,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 82,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 82,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 82,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 83,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 83,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 83,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 28,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 28,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 28,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 29,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 29,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 29,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 30,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 30,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 30,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 31,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 31,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 31,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 32,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 32,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 32,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 33,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 33,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 33,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 34,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 34,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 34,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 35,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 35,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 35,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 36,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 36,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 36,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 37,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 37,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 37,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 38,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 38,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 38,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 39,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 39,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 39,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 40,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 40,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 40,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 41,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 41,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 41,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 42,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 42,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 42,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 43,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 43,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 43,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 44,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 44,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 44,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 45,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 45,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 45,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 46,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 46,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 46,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 47,
+      "skill": "nurse",
+      "required": 8,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 47,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 47,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 48,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 48,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 48,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 49,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 49,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 49,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 50,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 50,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 50,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 51,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 51,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 51,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 52,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 52,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 52,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 53,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 53,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 53,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 54,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 54,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 54,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 55,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 55,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 55,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 56,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 56,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 56,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 57,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 57,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 57,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 58,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 58,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 58,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 59,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 59,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 59,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 60,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 60,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 60,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 61,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 61,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 61,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 62,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 62,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 62,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 63,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 63,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 63,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 64,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 64,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 64,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 65,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 65,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 65,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 66,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 66,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 66,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 67,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 67,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 67,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 68,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 68,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 68,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 69,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 69,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 69,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 70,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 70,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 70,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 71,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 71,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 71,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 72,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 72,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 72,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 73,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 73,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 73,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 74,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 74,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 74,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 75,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 75,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 75,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 76,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 76,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 76,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 77,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 77,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 77,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 78,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 78,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 78,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 79,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 79,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 79,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 80,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 80,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 80,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 81,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 81,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 81,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 82,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 82,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 82,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 83,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 83,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 83,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 28,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 28,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 28,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 29,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 29,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 29,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 30,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 30,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 30,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 31,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 31,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 31,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 32,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 32,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 32,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 33,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 33,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 33,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 34,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 34,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 34,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 35,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 35,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 35,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 36,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 36,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 36,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 37,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 37,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 37,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 38,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 38,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 38,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 39,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 39,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 39,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 40,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 40,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 40,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 41,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 41,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 41,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 42,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 42,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 42,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 43,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 43,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 43,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 44,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 44,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 44,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 45,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 45,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 45,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 46,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 46,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 46,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 47,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 47,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 47,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 48,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 48,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 48,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 49,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 49,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 49,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 50,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 50,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 50,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 51,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 51,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 51,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 52,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 52,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 52,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 53,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 53,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 53,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 54,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 54,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 54,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 55,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 55,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 55,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 56,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 56,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 56,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 57,
+      "skill": "nurse",
+      "required": 8,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 57,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 57,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 58,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 58,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 58,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 59,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 59,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 59,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 60,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 60,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 60,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 61,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 61,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 61,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 62,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 62,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 62,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 63,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 63,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 63,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 64,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 64,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 64,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 65,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 65,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 65,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 66,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 66,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 66,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 67,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 67,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 67,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 68,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 68,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 68,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 69,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 69,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 69,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 70,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 70,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 70,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 71,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 71,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 71,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 72,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 72,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 72,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 73,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 73,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 73,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 74,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 74,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 74,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 75,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 75,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 75,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 76,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 76,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 76,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 77,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 77,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 77,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 78,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 78,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 78,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 79,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 79,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 79,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 80,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 80,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 80,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 81,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 81,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 81,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 82,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 82,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 82,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 83,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 83,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 83,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 28,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 28,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 28,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 29,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 29,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 29,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 30,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 30,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 30,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 31,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 31,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 31,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 32,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 32,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 32,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 33,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 33,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 33,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 34,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 34,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 34,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 35,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 35,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 35,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 36,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 36,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 36,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 37,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 37,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 37,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 38,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 38,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 38,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 39,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 39,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 39,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 40,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 40,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 40,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 41,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 41,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 41,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 42,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 42,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 42,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 43,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 43,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 43,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 44,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 44,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 44,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 45,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 45,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 45,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 46,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 46,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 46,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 47,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 47,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 47,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 48,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 48,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 48,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 49,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 49,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 49,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 50,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 50,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 50,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 51,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 51,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 51,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 52,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 52,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 52,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 53,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 53,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 53,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 54,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 54,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 54,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 55,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 55,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 55,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 56,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 56,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 56,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 57,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 57,
+      "skill": "receptionist",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 57,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 58,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 58,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 58,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 59,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 59,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 59,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 60,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 60,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 60,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 61,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 61,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 61,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 62,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 62,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 62,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 63,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 63,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 63,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 64,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 64,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 64,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 65,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 65,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 65,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 66,
+      "skill": "nurse",
+      "required": 7,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 66,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 66,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 67,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 67,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 67,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 68,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 68,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 68,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 69,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 69,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 69,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 70,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 70,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 70,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 71,
+      "skill": "nurse",
+      "required": 5,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 71,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 71,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 72,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 72,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 72,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 73,
+      "skill": "nurse",
+      "required": 6,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 73,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 73,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 74,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 74,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 74,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 75,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 75,
+      "skill": "receptionist",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 75,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 76,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 76,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 76,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 77,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 77,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 77,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 78,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 78,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 78,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 79,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 79,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 79,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 80,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 80,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 80,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 81,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 81,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 81,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 82,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 82,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 82,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 83,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 83,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 83,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 28,
+      "skill": "nurse",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 29,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 30,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 31,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 32,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 33,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 34,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 35,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 36,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 36,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 37,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 37,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 38,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 38,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 39,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 39,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 40,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 40,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 41,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 41,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 42,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 42,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 42,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 43,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 43,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 43,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 44,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 44,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 44,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 45,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 45,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 45,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 46,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 46,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 46,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 47,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 47,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 47,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 48,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 48,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 48,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 49,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 49,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 49,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 50,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 50,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 50,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 51,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 51,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 51,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 52,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 52,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 52,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 53,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 53,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 53,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 54,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 54,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 54,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 55,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 55,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 55,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 56,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 56,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 56,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 57,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 57,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 57,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 58,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 58,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 58,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 59,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 59,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 59,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 60,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 60,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 60,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 61,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 61,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 61,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 62,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 62,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 62,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 63,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 63,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 63,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 64,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 64,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 64,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 65,
+      "skill": "nurse",
+      "required": 4,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 65,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 65,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 66,
+      "skill": "nurse",
+      "required": 3,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 66,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 66,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 67,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 67,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 67,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 68,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 68,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 68,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 69,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 69,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 69,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 70,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 70,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 70,
+      "skill": "supervisor",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 71,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 71,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 72,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 72,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 73,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 73,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 74,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 74,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 75,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 75,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 76,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 76,
+      "skill": "receptionist",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 77,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 78,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 79,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 80,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 81,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 82,
+      "skill": "nurse",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 83,
+      "skill": "nurse",
+      "required": 1,
+      "criticality": 1.0
+    }
+  ],
+  "rules": {
+    "min_rest_hours": 11.0,
+    "weekend_days": [
+      5,
+      6
+    ]
+  },
+  "weights": {
+    "understaffing": 500.0,
+    "supervisor": 900.0,
+    "min_hours": 400.0,
+    "fairness": 100.0,
+    "preference": 5.0,
+    "stability": 60.0
+  }
+}

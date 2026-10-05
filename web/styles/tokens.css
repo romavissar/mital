@@ -1,0 +1,104 @@
+/* mital design tokens — single source of truth. */
+
+:root {
+  /* ── Ground ─────────────────────────────────────────────── */
+  color-scheme: light;
+  --ink:        #172329;
+  --ink-soft:   #526268;
+  --paper:      #F4F5F1;
+  --paper-sunk: #FFFFFF;
+  --rule:       #D4DCD7;
+  --rule-hour:  #AAB8B2;
+
+  /* ── Time-of-day scale (hue carries information) ────────── */
+  --dawn:       #E9A23B;  /* opening shifts */
+  --day:        #176D69;  /* midday shifts — primary accent */
+  --dusk:       #5B4B8A;  /* closing shifts */
+  --alarm:      #C6362F;  /* RESERVED: overtime, uncovered, binding */
+
+  --dawn-fill:  #F7E2BE;
+  --day-fill:   #C3DEDC;
+  --dusk-fill:  #D2CBE3;
+  --alarm-fill: #F1C9C6;
+
+  /* ── Type ───────────────────────────────────────────────── */
+  --font-display: "Public Sans", system-ui, sans-serif;
+  --font-body:    "Public Sans", system-ui, sans-serif;
+  --font-data:    "IBM Plex Mono", ui-monospace, monospace;
+
+  --step--1: 0.78rem;   /* captions, gutter labels */
+  --step-0:  0.94rem;   /* body */
+  --step-1:  1.18rem;   /* subheads */
+  --step-2:  1.62rem;   /* section heads */
+  --step-3:  2.40rem;   /* hour ruler, page title */
+  --step-4:  2.80rem;
+
+  --tracking-display: -0.025em;
+  --tracking-caps:    0.01em;
+
+  /* ── Space (4px base) ───────────────────────────────────── */
+  --s-1: 4px;  --s-2: 8px;   --s-3: 12px;  --s-4: 16px;
+  --s-5: 24px; --s-6: 32px;  --s-7: 48px;  --s-8: 64px;
+
+  /* ── Grid geometry ──────────────────────────────────────── */
+  --cell-w:    9px;   /* one 15-min period */
+  --row-h:     34px;  /* one employee row */
+  --gutter-w:  56px;  /* shadow-price gutter */
+  --namecol-w: 148px;
+
+  /* ── Structure ──────────────────────────────────────────── */
+  --radius:      10px;
+  --radius-lg:   18px;
+  --radius-pill: 999px;
+  --radius-none: 0;
+  --hairline:    1px solid var(--rule);
+  --shadow-lift: 0 5px 20px rgb(14 26 36 / 0.045);
+
+  --dur-fast:  120ms;
+  --dur-morph: 380ms;   /* tradeoff dial transition */
+  --ease:      cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #E9EFED;
+  --ink-soft: #A8B8B6;
+  --paper: #171D20;
+  --paper-sunk: #222A2D;
+  --rule: #3C4B4D;
+  --rule-hour: #607172;
+  --dawn: #E9B66C;
+  --day: #70C5BB;
+  --dusk: #B2A3DD;
+  --alarm: #F0938D;
+  --dawn-fill: #493823;
+  --day-fill: #294347;
+  --dusk-fill: #38314D;
+  --alarm-fill: #4A2929;
+  --shadow-lift: 0 5px 20px rgb(0 0 0 / 0.12);
+}
+
+/* Numeric cells: hours, wages, duals, objective terms. Mandatory. */
+.num {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* Column heads and eyebrows */
+.label {
+  font-family: var(--font-body);
+  font-weight: 600;
+  letter-spacing: var(--tracking-caps);
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --dur-fast: 0ms; --dur-morph: 0ms; }
+}
+
+:where(a, button, [tabindex]):focus-visible {
+  outline: 2px solid var(--day);
+  outline-offset: 2px;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "mital",
+  "productName": "mital",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.15.9",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "desktop": "electron .",
+    "dist:mac": "electron-builder --mac dmg",
+    "dist:win": "electron-builder --win nsis",
+    "test:desktop": "node --experimental-strip-types --test desktop/*.test.cjs lib/*.test.mjs",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@fontsource/urbanist": "^5.3.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "electron": "^44.5.1",
+    "electron-builder": "^26.15.3",
+    "eslint": "^9",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "typescript-eslint": "^8.71.0",
+    "vite": "^8.3.2"
+  }
+}

@@ -1,0 +1,86 @@
+.inspector {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+  min-width: 0;
+}
+.inspector__pay { font: 650 var(--step-2)/1.15 var(--font-display); }
+.inspector__pay-breakdown { display: grid; gap: var(--s-1); margin: 0; }
+.inspector__pay-breakdown div { display: flex; justify-content: space-between; gap: var(--s-3); }
+.inspector__pay-breakdown dt { color: var(--ink-soft); }
+.inspector__score-intro { border-top: var(--hairline); padding-top: var(--s-3); }
+.inspector__score-intro p { margin: 0 0 var(--s-2); }
+.inspector__technical { border-top: var(--hairline); padding-top: var(--s-3); }
+.inspector__technical summary { padding: 0; color: var(--ink-soft); font-weight: 600; }
+.inspector__technical .inspector__meta { margin-top: var(--s-3); }
+
+.inspector__meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s-2) var(--s-3);
+  margin: 0;
+}
+
+.inspector__meta dt {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  font-family: var(--font-display);
+}
+
+.inspector__meta dd {
+  margin: 0;
+  font-size: var(--step-0);
+  color: var(--ink);
+}
+
+.inspector__terms {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--step--1);
+}
+
+.inspector__terms th,
+.inspector__terms td {
+  padding: var(--s-1) 0;
+  border-bottom: var(--hairline);
+  text-align: left;
+  font-weight: 400;
+}
+
+.inspector__terms td {
+  text-align: right;
+}
+
+.inspector__terms thead th {
+  color: var(--ink-soft);
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+}
+
+.inspector__hint {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+
+.inspector__total th,
+.inspector__total td {
+  border-bottom: none;
+  padding-top: var(--s-2);
+  font-weight: 600;
+}
+
+.inspector__fair {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+
+.inspector__alarm {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--alarm);
+}

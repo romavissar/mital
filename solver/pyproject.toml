@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mital-solver"
+version = "0.1.0"
+description = "MILP staff scheduling solver for mital"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "pulp==3.3.2",
+    "highspy==1.15.1",
+    "pydantic==2.13.4",
+    "numpy==2.5.1",
+    "scipy==1.18.0",
+    "fastapi==0.141.1",
+    "uvicorn==0.52.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "hypothesis==6.165.0",
+]
+
+[tool.setuptools]
+packages = [
+    "mital_solver",
+    "mital_solver.model",
+    "mital_solver.demand",
+    "mital_solver.analysis",
+    "mital_solver.bench",
+]
+
+[tool.setuptools.package-dir]
+"mital_solver" = "."
+"mital_solver.model" = "model"
+"mital_solver.demand" = "demand"
+"mital_solver.analysis" = "analysis"
+"mital_solver.bench" = "bench"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

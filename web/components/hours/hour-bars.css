@@ -1,0 +1,64 @@
+.hour-bars {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  min-width: 200px;
+  max-width: 280px;
+  max-height: min(70vh, 720px);
+  overflow: auto;
+  border-left: var(--hairline);
+  padding-left: var(--s-4);
+}
+
+.hour-bars__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.hour-bars__row {
+  display: grid;
+  grid-template-columns: 72px 1fr 40px;
+  gap: var(--s-2);
+  align-items: center;
+  min-height: calc(var(--row-h) - 8px);
+}
+
+.hour-bars__name {
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hour-bars__track {
+  height: 8px;
+  background: var(--paper-sunk);
+  border: var(--hairline);
+}
+
+.hour-bars__fill {
+  height: 100%;
+  background: var(--day);
+  transition: width var(--dur-morph) var(--ease);
+}
+
+.hour-bars__fill[data-ot="1"] {
+  background: var(--alarm);
+}
+
+.hour-bars__val {
+  font-size: var(--step--1);
+  text-align: right;
+  color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hour-bars__fill {
+    transition: none;
+  }
+}

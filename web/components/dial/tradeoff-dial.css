@@ -1,0 +1,126 @@
+.dial {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  padding: var(--s-4) 0 0;
+  border-top: var(--hairline);
+}
+
+.dial--static {
+  padding-top: var(--s-3);
+}
+
+.dial__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--s-3);
+}
+
+.dial__readout {
+  color: var(--ink);
+  font-size: var(--step-0);
+}
+
+.dial__source {
+  margin-left: auto;
+  color: var(--ink-soft);
+}
+
+.dial__track {
+  position: relative;
+  height: 36px;
+  margin: var(--s-2) var(--s-2) 0;
+  cursor: pointer;
+  touch-action: none;
+  outline: none;
+}
+
+.dial__track:focus-visible {
+  outline: 2px solid var(--day);
+  outline-offset: 4px;
+}
+
+.dial__rail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 7px;
+  margin-top: -3.5px;
+  border-radius: var(--radius-pill);
+  background: var(--rule);
+}
+
+.dial__fill {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 7px;
+  margin-top: -3.5px;
+  border-radius: var(--radius-pill);
+  background: var(--day);
+  transition: width var(--dur-morph) var(--ease);
+}
+
+.dial__tick {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  margin-top: -6px;
+  padding: 0;
+  border: 1px solid var(--ink-soft);
+  border-radius: var(--radius-pill);
+  background: var(--paper);
+  transform: translateX(0);
+  cursor: pointer;
+}
+
+.dial__tick--active {
+  border-color: var(--day);
+  background: var(--day);
+}
+
+.dial__thumb {
+  position: absolute;
+  top: 50%;
+  width: 22px;
+  height: 22px;
+  margin-left: -11px;
+  margin-top: -11px;
+  border: 2px solid var(--ink);
+  background: var(--day-fill);
+  border-radius: var(--radius-pill);
+  pointer-events: none;
+  transition: left var(--dur-morph) var(--ease);
+}
+
+.dial__axis {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+  padding: 0 var(--s-1);
+}
+
+.dial__choices { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: var(--s-2); margin-top: var(--s-2); }
+.dial__choice { display: grid; gap: var(--s-1); text-align: left; padding: var(--s-3); border: var(--hairline); border-radius: var(--radius); background: var(--paper); color: var(--ink); font: inherit; cursor: pointer; }
+.dial__choice:hover, .dial__choice[data-active] { border-color: var(--day); background: var(--day-fill); }
+.dial__choice strong { font-size: var(--step-0); }
+.dial__choice small { color: var(--ink-soft); font-size: var(--step--2); line-height: 1.4; }
+
+.dial__note {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+  max-width: 52rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dial__fill,
+  .dial__thumb {
+    transition: none;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_note": "Committed optimal objective totals under default MINMAX_HOURS weights (λ_f=100, λ_min=400). Regression must not degrade these. Never edit to green a failing test — investigate.",
+  "cafe_08": 5130.3,
+  "cafe_18": 6372.2667,
+  "clinic_25": 16532.905,
+  "retail_40": 16876.445,
+  "retail_60": 25229.975,
+  "tight_20": 85221.22
+}

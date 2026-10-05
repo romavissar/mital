@@ -1,0 +1,25 @@
+appId: ro.mital.desktop
+productName: mital
+artifactName: mital-${version}-${os}-${arch}.${ext}
+directories:
+  output: release
+  buildResources: build-resources
+files:
+  - dist/**/*
+  - desktop/**/*
+  - package.json
+  - '!desktop/*.test.cjs'
+extraResources:
+  - from: build/solver/mital-solver-bridge
+    to: solver
+mac:
+  category: public.app-category.productivity
+  icon: build-resources/mital.icns
+  identity: null
+  target: dmg
+win:
+  icon: build-resources/mital.ico
+  target: nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true

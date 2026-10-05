@@ -1,0 +1,6315 @@
+{
+  "id": "cafe_08",
+  "horizon_days": 7,
+  "start_date": "2026-08-03",
+  "currency": "EUR",
+  "skills": [
+    "barista",
+    "keyholder",
+    "kitchen"
+  ],
+  "supervisor_skill": "keyholder",
+  "shifts": [
+    {
+      "id": "open",
+      "label": "Opening",
+      "start_period": 24,
+      "end_period": 56,
+      "paid_hours": 7.5,
+      "undesirable": false,
+      "closing": false
+    },
+    {
+      "id": "mid",
+      "label": "Mid",
+      "start_period": 40,
+      "end_period": 72,
+      "paid_hours": 7.5,
+      "undesirable": false,
+      "closing": false
+    },
+    {
+      "id": "close",
+      "label": "Closing",
+      "start_period": 56,
+      "end_period": 88,
+      "paid_hours": 7.5,
+      "undesirable": true,
+      "closing": true
+    }
+  ],
+  "employees": [
+    {
+      "id": "e_000",
+      "name": "Ana",
+      "wage": 13.58,
+      "ot_wage": 20.37,
+      "skills": [
+        "kitchen",
+        "keyholder"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 28.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "open",
+            "mid"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "open",
+            "mid"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 3,
+          "shift": "close",
+          "penalty": 2.0
+        },
+        {
+          "day": 6,
+          "shift": "close",
+          "penalty": 4.0
+        }
+      ]
+    },
+    {
+      "id": "e_001",
+      "name": "Ben",
+      "wage": 16.2,
+      "ot_wage": 24.3,
+      "skills": [
+        "barista",
+        "keyholder"
+      ],
+      "min_hours": 16.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 3,
+          "shift": "close",
+          "penalty": 2.0
+        },
+        {
+          "day": 4,
+          "shift": "close",
+          "penalty": 3.0
+        },
+        {
+          "day": 5,
+          "shift": "close",
+          "penalty": 4.0
+        }
+      ]
+    },
+    {
+      "id": "e_002",
+      "name": "Cara",
+      "wage": 15.7,
+      "ot_wage": 23.55,
+      "skills": [
+        "barista"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "open",
+            "mid"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "open"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "open",
+            "mid"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "open",
+            "mid"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 0,
+          "shift": "close",
+          "penalty": 2.0
+        }
+      ]
+    },
+    {
+      "id": "e_003",
+      "name": "Diego",
+      "wage": 14.39,
+      "ot_wage": 21.59,
+      "skills": [
+        "kitchen"
+      ],
+      "min_hours": 16.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "open"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 0,
+          "shift": "close",
+          "penalty": 2.0
+        }
+      ]
+    },
+    {
+      "id": "e_004",
+      "name": "Elena",
+      "wage": 13.22,
+      "ot_wage": 19.83,
+      "skills": [
+        "kitchen"
+      ],
+      "min_hours": 0.0,
+      "max_hours": 24.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "open",
+            "close"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "open"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "open",
+            "close"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "mid",
+            "close"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 1,
+          "shift": "close",
+          "penalty": 4.0
+        },
+        {
+          "day": 2,
+          "shift": "close",
+          "penalty": 5.0
+        },
+        {
+          "day": 5,
+          "shift": "close",
+          "penalty": 3.0
+        },
+        {
+          "day": 6,
+          "shift": "close",
+          "penalty": 5.0
+        }
+      ]
+    },
+    {
+      "id": "e_005",
+      "name": "Finn",
+      "wage": 14.31,
+      "ot_wage": 21.46,
+      "skills": [
+        "barista"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "open"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 0,
+          "shift": "close",
+          "penalty": 4.0
+        },
+        {
+          "day": 1,
+          "shift": "close",
+          "penalty": 3.0
+        },
+        {
+          "day": 2,
+          "shift": "close",
+          "penalty": 3.0
+        },
+        {
+          "day": 4,
+          "shift": "close",
+          "penalty": 2.0
+        }
+      ]
+    },
+    {
+      "id": "e_006",
+      "name": "Grace",
+      "wage": 12.45,
+      "ot_wage": 18.67,
+      "skills": [
+        "barista",
+        "keyholder"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "open",
+            "mid"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 0,
+          "shift": "close",
+          "penalty": 2.0
+        },
+        {
+          "day": 5,
+          "shift": "close",
+          "penalty": 5.0
+        }
+      ]
+    },
+    {
+      "id": "e_007",
+      "name": "Hugo",
+      "wage": 12.42,
+      "ot_wage": 18.63,
+      "skills": [
+        "barista",
+        "kitchen"
+      ],
+      "min_hours": 24.0,
+      "max_hours": 40.0,
+      "max_overtime": 8.0,
+      "max_consecutive_days": 5,
+      "availability": [
+        {
+          "day": 0,
+          "shifts": [
+            "open"
+          ]
+        },
+        {
+          "day": 1,
+          "shifts": [
+            "open",
+            "mid"
+          ]
+        },
+        {
+          "day": 2,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 3,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 4,
+          "shifts": [
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 5,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        },
+        {
+          "day": 6,
+          "shifts": [
+            "open",
+            "mid",
+            "close"
+          ]
+        }
+      ],
+      "preferences": [
+        {
+          "day": 2,
+          "shift": "close",
+          "penalty": 2.0
+        },
+        {
+          "day": 3,
+          "shift": "close",
+          "penalty": 3.0
+        }
+      ]
+    }
+  ],
+  "demand": [
+    {
+      "day": 0,
+      "period": 24,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 25,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 26,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 27,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 28,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 29,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 30,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 31,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 32,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 33,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 34,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 35,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 36,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 37,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 38,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 39,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 40,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 40,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 41,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 41,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 42,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 42,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 43,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 43,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 43,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 44,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 44,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 44,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 45,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 45,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 45,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 46,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 46,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 46,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 47,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 47,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 47,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 48,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 48,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 48,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 49,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 49,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 49,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 50,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 50,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 50,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 51,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 51,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 51,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 52,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 52,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 52,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 53,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 53,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 53,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 54,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 54,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 54,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 55,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 55,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 55,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 56,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 56,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 56,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 0,
+      "period": 57,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 57,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 57,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 58,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 58,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 58,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 59,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 59,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 59,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 60,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 60,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 60,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 61,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 61,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 61,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 62,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 62,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 63,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 63,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 64,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 64,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 65,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 65,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 66,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 66,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 67,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 67,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 68,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 69,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 70,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 71,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 72,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 73,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 74,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 75,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 76,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 77,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 78,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 79,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 80,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 81,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 82,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 83,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 84,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 85,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 86,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 0,
+      "period": 87,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 24,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 25,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 26,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 27,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 28,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 29,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 30,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 31,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 32,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 33,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 34,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 35,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 36,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 37,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 38,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 39,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 40,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 40,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 41,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 41,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 42,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 42,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 43,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 43,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 43,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 44,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 44,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 44,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 45,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 45,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 45,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 46,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 46,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 46,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 47,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 47,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 47,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 48,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 48,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 48,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 49,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 49,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 49,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 50,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 50,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 50,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 51,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 51,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 51,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 52,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 52,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 52,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 53,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 53,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 53,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 54,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 54,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 54,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 55,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 55,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 55,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 56,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 56,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 56,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 1,
+      "period": 57,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 57,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 57,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 58,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 58,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 58,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 59,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 59,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 59,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 60,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 60,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 60,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 61,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 61,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 61,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 62,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 62,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 63,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 63,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 64,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 64,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 65,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 65,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 66,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 66,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 67,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 67,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 68,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 69,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 70,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 71,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 72,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 73,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 74,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 75,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 76,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 77,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 78,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 79,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 80,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 81,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 82,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 83,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 84,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 85,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 86,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 1,
+      "period": 87,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 24,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 25,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 26,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 27,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 28,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 29,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 30,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 31,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 32,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 33,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 34,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 35,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 36,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 37,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 38,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 39,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 40,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 40,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 41,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 41,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 42,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 42,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 43,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 43,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 43,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 44,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 44,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 44,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 45,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 45,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 45,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 46,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 46,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 46,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 47,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 47,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 47,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 48,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 48,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 48,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 49,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 49,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 49,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 50,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 50,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 50,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 51,
+      "skill": "barista",
+      "required": 3,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 51,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 51,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 52,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 52,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 52,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 53,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 53,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 53,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 54,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 54,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 54,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 55,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 55,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 55,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 56,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 56,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 56,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 2,
+      "period": 57,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 57,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 57,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 58,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 58,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 58,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 59,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 59,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 59,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 60,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 60,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 60,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 61,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 61,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 61,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 62,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 62,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 63,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 63,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 64,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 64,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 65,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 65,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 66,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 66,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 67,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 67,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 68,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 69,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 70,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 71,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 72,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 73,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 74,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 75,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 76,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 77,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 78,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 79,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 80,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 81,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 82,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 83,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 84,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 85,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 86,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 2,
+      "period": 87,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 24,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 25,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 26,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 27,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 28,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 29,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 30,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 31,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 32,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 33,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 34,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 35,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 36,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 37,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 38,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 39,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 40,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 40,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 41,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 41,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 42,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 42,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 43,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 43,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 43,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 44,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 44,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 44,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 45,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 45,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 45,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 46,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 46,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 46,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 47,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 47,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 47,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 48,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 48,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 48,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 49,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 49,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 49,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 50,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 50,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 50,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 51,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 51,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 51,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 52,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 52,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 52,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 53,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 53,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 53,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 54,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 54,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 54,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 55,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 55,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 55,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 56,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 56,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 56,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 3,
+      "period": 57,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 57,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 57,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 58,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 58,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 58,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 59,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 59,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 59,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 60,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 60,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 60,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 61,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 61,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 61,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 62,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 62,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 63,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 63,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 64,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 64,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 65,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 65,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 66,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 66,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 67,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 67,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 68,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 69,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 70,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 71,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 72,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 73,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 74,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 75,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 76,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 77,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 78,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 79,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 80,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 81,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 82,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 83,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 84,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 85,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 86,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 3,
+      "period": 87,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 24,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 25,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 26,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 27,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 28,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 29,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 30,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 31,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 32,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 33,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 34,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 35,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 36,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 37,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 38,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 39,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 40,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 40,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 41,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 41,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 42,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 42,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 43,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 43,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 43,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 44,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 44,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 44,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 45,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 45,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 45,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 46,
+      "skill": "barista",
+      "required": 3,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 46,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 46,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 47,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 47,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 47,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 48,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 48,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 48,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 49,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 49,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 49,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 50,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 50,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 50,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 51,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 51,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 51,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 52,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 52,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 52,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 53,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 53,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 53,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 54,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 54,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 54,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 55,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 55,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 55,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 56,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 56,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 56,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 4,
+      "period": 57,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 57,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 57,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 58,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 58,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 58,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 59,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 59,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 59,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 60,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 60,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 60,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 61,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 61,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 61,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 62,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 62,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 63,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 63,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 64,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 64,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 65,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 65,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 66,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 66,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 67,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 67,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 68,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 69,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 70,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 71,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 72,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 73,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 74,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 75,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 76,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 77,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 78,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 79,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 80,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 81,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 82,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 83,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 84,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 85,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 86,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 4,
+      "period": 87,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 24,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 25,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 26,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 27,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 28,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 29,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 30,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 31,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 32,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 33,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 34,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 35,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 36,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 37,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 38,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 38,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 39,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 39,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 40,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 40,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 41,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 41,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 41,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 42,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 42,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 42,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 43,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 43,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 43,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 44,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 44,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 44,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 45,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 45,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 45,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 46,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 46,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 46,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 47,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 47,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 47,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 48,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 48,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 48,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 49,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 49,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 49,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 50,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 50,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 50,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 51,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 51,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 51,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 52,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 52,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 52,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 53,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 53,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 53,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 54,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 54,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 54,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 55,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 55,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 55,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 56,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 56,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 56,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 5,
+      "period": 57,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 57,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 57,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 58,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 58,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 58,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 59,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 59,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 59,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 60,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 60,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 60,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 61,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 61,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 61,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 62,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 62,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 62,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 63,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 63,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 63,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 64,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 64,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 64,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 65,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 65,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 65,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 66,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 66,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 67,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 67,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 68,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 68,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 69,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 69,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 70,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 70,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 71,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 71,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 72,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 73,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 74,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 75,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 76,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 77,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 78,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 79,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 80,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 81,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 82,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 83,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 84,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 85,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 86,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 5,
+      "period": 87,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 24,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 25,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 26,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 27,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 28,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 29,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 30,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 31,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 32,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 33,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 34,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 35,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 36,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 37,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 38,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 38,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 39,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 39,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 40,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 40,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 41,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 41,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 41,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 42,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 42,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 42,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 43,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 43,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 43,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 44,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 44,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 44,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 45,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 45,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 45,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 46,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 46,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 46,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 47,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 47,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 47,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 48,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 48,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 48,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 49,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 49,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 49,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 50,
+      "skill": "barista",
+      "required": 3,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 50,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 50,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 51,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 51,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 51,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 52,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 52,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 52,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 53,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 53,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 53,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 54,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 54,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 54,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 55,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 55,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 55,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 56,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 56,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 56,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.2
+    },
+    {
+      "day": 6,
+      "period": 57,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 57,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 57,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 58,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 58,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 58,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 59,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 59,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 59,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 60,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 60,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 60,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 61,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 61,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 61,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 62,
+      "skill": "barista",
+      "required": 2,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 62,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 62,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 63,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 63,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 63,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 64,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 64,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 64,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 65,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 65,
+      "skill": "keyholder",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 65,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 66,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 66,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 67,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 67,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 68,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 68,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 69,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 69,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 70,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 70,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 71,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 71,
+      "skill": "kitchen",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 72,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 73,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 74,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 75,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 76,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 77,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 78,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 79,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 80,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 81,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 82,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 83,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 84,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 85,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 86,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    },
+    {
+      "day": 6,
+      "period": 87,
+      "skill": "barista",
+      "required": 1,
+      "criticality": 1.0
+    }
+  ],
+  "rules": {
+    "min_rest_hours": 11.0,
+    "weekend_days": [
+      5,
+      6
+    ]
+  },
+  "weights": {
+    "understaffing": 500.0,
+    "supervisor": 900.0,
+    "min_hours": 400.0,
+    "fairness": 100.0,
+    "preference": 5.0,
+    "stability": 60.0
+  }
+}
