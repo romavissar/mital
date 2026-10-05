@@ -29,7 +29,7 @@ Run checks with `python3 -m pytest -q` from `solver/`, and `corepack pnpm lint &
 
 ## Installers
 
-[Desktop build instructions](web/README.md) cover macOS and Windows. Installer files and test output are excluded from Git; publish tested builds through GitHub Releases or the project website. The current macOS build is unsigned, and the Windows installer must be built and tested on Windows.
+[Desktop build instructions](web/README.md) cover macOS and Windows. Installer files and test output are excluded from Git; publish only tested builds through GitHub Releases or the project website. The first Mac release was unsigned and is blocked by macOS; a signed, notarized replacement is required. The Windows installer must be built and tested on Windows.
 
 ## License
 

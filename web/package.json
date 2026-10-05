@@ -10,7 +10,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "tsc --noEmit && vite build",
     "desktop": "electron .",
-    "dist:mac": "electron-builder --mac dmg",
+    "dist:mac": "node ../packaging/check_mac_release.cjs && electron-builder --mac dmg",
     "dist:win": "electron-builder --win nsis",
     "test:desktop": "node --experimental-strip-types --test desktop/*.test.cjs lib/*.test.mjs",
     "lint": "eslint ."

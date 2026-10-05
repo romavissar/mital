@@ -15,7 +15,8 @@ extraResources:
 mac:
   category: public.app-category.productivity
   icon: build-resources/mital.icns
-  identity: null
+  forceCodeSigning: true
+  notarize: true
   target: dmg
 win:
   icon: build-resources/mital.ico

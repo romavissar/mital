@@ -34,4 +34,4 @@ On Windows x64, from the repository root in PowerShell:
 .\packaging\build-windows.ps1
 ```
 
-Installers appear in `web/release/`. The build script smoke-tests the native solver before packaging. Test the installer on its target OS. The Mac build is unsigned; distribution requires code signing and notarization.
+Installers appear in `web/release/`. The solver build smoke-tests its native binary. Mac release builds require a Developer ID Application certificate and Apple notarization credentials; packaging stops if either is missing. After packaging, verify the app with `codesign --verify --deep --strict --verbose=2 release/mac-arm64/mital.app` and `spctl --assess --type execute --verbose=4 release/mac-arm64/mital.app` before uploading the DMG. Test the downloaded installer on a second Mac.

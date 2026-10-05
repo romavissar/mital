@@ -36,6 +36,7 @@ web/build/
 web/release/
 web/out/
 web/.turbo/
+/mital_web/
 web/app/favicon.ico
 build/
 dist/
