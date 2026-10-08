@@ -15,6 +15,6 @@ if (!process.env.CSC_LINK && !identities.includes("Developer ID Application:"))
 
 const appleId = process.env.APPLE_ID && process.env.APPLE_APP_SPECIFIC_PASSWORD && process.env.APPLE_TEAM_ID;
 const apiKey = process.env.APPLE_API_KEY && process.env.APPLE_API_KEY_ID && process.env.APPLE_API_ISSUER;
-const keychain = process.env.APPLE_KEYCHAIN && process.env.APPLE_KEYCHAIN_PROFILE;
+const keychain = process.env.APPLE_KEYCHAIN_PROFILE;
 if (!appleId && !apiKey && !keychain)
   fail("Apple notarization credentials are missing. Configure an App Store Connect API key, Apple ID app-specific password, or notarytool Keychain profile.");
